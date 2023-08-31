@@ -1,0 +1,33 @@
+/* Write your CSS code here. */
+.bg {
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: black;
+}
+.emojis {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.e-icon {
+  height: 40px;
+  width: 40px;
+}
